@@ -1,4 +1,5 @@
 
+let instructionToggle = true;
 
 var highLightStyle = {
     color: '#2262CC',  
@@ -97,7 +98,7 @@ var locations = [
     {lat:-22.864006952716814, lng:-43.336973086600324, district:'Madureira',address:'Comunidade Cajueiro',date:"15/02/2021", hour:"18h", img:"cajueiro-folia.png"},
     {lat:-22.908641403568744, lng:-43.296582369402415, district:'Engenho de Dentro',address:'Camarista Méier - Âncora',date:"15/02/2021", hour:"22h", img:"pagofunk-camarista.png"},
     {lat:-22.860092915806774, lng:-43.23855367548396, district:'Nova Holanda',address:'Campo da Rubens Vaz',date:"20/02/2021", hour:"23h", img:"baile-da-nova-holanda.png"},
-    {lat:-22.98326585595873, lng:-43.2009018327347, district:'Ipanema',address:'R. Farme de Amoedo, 95',date:"13,14,15,16/02/2021", hour:"", img:"point-meninos.png"},
+    {lat:-22.98326585595873, lng:-43.2009018327347, district:'Ipanema',address:'R. Farme de Amoedo, 95',date:"13-16/02/2021", hour:"", img:"point-meninos.png"},
     {lat:-22.964298849636258, lng:-43.17403215787776, district:'Copacabana',address:'Av. Princesa Isabel, 21',date:"15/02/2021", hour:"23h", img:"black-cat.png"},
     {lat:-22.965948767492176, lng:-43.17644721554819, district:'Copacabana',address:'Av. Atlântica, 1424',date:"15/02/2021", hour:"23h", img:"bloquinho-da-dolce.png"},
     {lat:-22.936907988112917, lng:-43.179253573219064, district:'Flamengo',address:'R. Bibiano Pereira da Rocha',date:"15/02/2021", hour:"22h", img:"black-cat.png"},
@@ -135,8 +136,8 @@ for(let i = 0 ; i < locations.length ; i++){
     marker = new L.marker([locations[i].lat, locations[i].lng], {
         icon: blackIcon
     })
-    .bindPopup("<div class='popup-complete-address'>" + locations[i].district + 
-               "<br>" + locations[i].address + "</div>" + 
+    .bindPopup("<div class='popup-complete-address'>" + "<div class='popup-district'>" + locations[i].district + "</div>" +
+               "<div class='popup-address'>" + locations[i].address + "</div>" + "</div>" + 
                "<div class='popup-date-and-hour'>" + locations[i].date + " " + locations[i].hour  + "</div>")
     .on('mouseover', function(){
         this.openPopup()
@@ -148,7 +149,24 @@ for(let i = 0 ; i < locations.length ; i++){
         document.getElementById("flyerImage").src = "";  
     }).addTo(mymap)
 }
-document.getElementById("totalDeEventos").innerHTML = "Total de " + locations.length + " eventos localizados";
+document.getElementById("totalDeEventos").innerHTML = locations.length + " eventos localizados";
+
+document.getElementById("observacoes").onclick = function(){
+    let instrucoes = document.getElementsByClassName("instrucoes");
+    let instrucoesWrapper = document.getElementById("instrucoesWrapper");
+
+    instructionToggle = !instructionToggle;
+    console.log(instructionToggle)
+
+    if(instructionToggle == true){
+            instrucoesWrapper.style.display = 'block';
+            document.getElementById("instrucoes-arrow").scr = "file://img/arrow-down.png";
+    }
+    else{
+            instrucoesWrapper.style.display = 'none';
+            document.getElementById("instrucoes-arrow").scr = "file://img/arrow-side.png";
+    }
+}
 
 //var markers2 = L.markerClusterGroup();
 //markers2.addLayer(L.marker(markers));
