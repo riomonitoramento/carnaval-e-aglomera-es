@@ -102,7 +102,7 @@ var locations = [
     {lat:-22.965948767492176, lng:-43.17644721554819, district:'Copacabana',address:'Av. Atlântica, 1424',date:"15/02/2021", hour:"23h", img:"bloquinho-da-dolce.png"},
     {lat:-22.936907988112917, lng:-43.179253573219064, district:'Flamengo',address:'R. Bibiano Pereira da Rocha',date:"15/02/2021", hour:"22h", img:"black-cat.png"},
     {lat:-22.93420229470518, lng:-43.211852813614264, district:'Rio Comprido',address:'R. Paula Ramos, 402',date:"15/02/2021", hour:"?", img:"mirante-do-caribe.png"},
-    {lat:-22.949744651038927, lng:-43.36129711015485, district:'Cidade de Deus',address:'Praça do Dantas',date:"14/02/2021", hour:"14h", img:"sala-dos-pirulitos.png"},
+    {lat:-22.949744651038927, lng:-43.36129711015485, district:'Cidade de Deus',address:'Praça do Dantas',date:"14/02/2021", hour:"14h", img:"saida-dos-pirulitos.png"},
     {lat:-22.948199590501527, lng:-43.36341183068254, district:'Cidade de Deus',address:'Quadra do Lazer',date:"16/02/2021", hour:"12h", img:"correto.png"},
     {lat:-22.880659914944403, lng:-43.463947217192434, district:'Bangu',address:'R. Santa Cecília, 800',date:"16/02/2021", hour:"17h", img:"caju-para-baixo-2.png"},
     {lat: -22.89545058078427, lng:-43.41838557682063, district:'Realengo',address:'R. Leonor Chrisman Mulle (Pistão da Leonor)',date:"12/02/2021", hour:"?", img:"pistao-da-leonor.png"},
@@ -129,8 +129,6 @@ var locations = [
     {lat:-22.937205858589415, lng:-43.17913764151031, district:'Flamengo',address:'Quadra do Morro Azul',date:"12/02/2021", hour:"22h", img:"micareta-do-mix.png"},
     {lat:-22.990776600086534, lng:-43.24758643391048, district:'Rocinha',address:'R. 2 (Quadra da rua)',date:"12/02/2021", hour:"22h", img:"resenha-dos-de-fe.png"},
 ]
-
-
 
 
 for(let i = 0 ; i < locations.length ; i++){
