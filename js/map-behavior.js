@@ -70,14 +70,14 @@ var locations = [
     {lat:-22.914209583368933, lng:-43.58983131739516, district:'Inhoaíba, Campo Grande',address:'Espaço mansão - Vilar Carioca<br>(sem endereço exato)',date:"14/03/2021", hour:"10h", img:"30-anos.png"},
     {lat:-22.916519095024633, lng:-43.601543931081224, district:'Campo Grande',address:'R. Florestal, 2 - Vilar Carioca',date:"27/03/2021", hour:"22h", img:"vilar-show.png"},
     {lat:-22.827476568763657, lng:-43.30390324438575, district:'Cordovil',address:'R. Tenente Palestrina, 715',date:"14/03/2021", hour:"14h", img:"sistema-nervoso.png"},
-    {lat:-22.909076238025637, lng:-43.29675403088973, district:'Engenho de Dentro',address:'R. Camarista Méier',date:"20/02/2021", hour:"(sem horário)", img:"micareta-maridao.png"},
+    {lat:-22.909076238025637, lng:-43.29675403088973, district:'Engenho de Dentro',address:'R. Camarista Méier',date:"20/02/2021", hour:"", img:"micareta-maridao.png"},
     {lat:-22.900909788880494, lng:-43.26762867321953, district:'Céu Azul, Engenho Novo',address:'R. Souza Barros, 395',date:"20/02/2021", hour:"19h", img:"classicos.png"},
     {lat:-22.89866711827307, lng:-43.263402229043926, district:'Engenho Novo',address:'R. Dois de Maio, 246',date:"21/02/2021", hour:"14h", img:"kadinho.png"},
     {lat:-22.82777150727137, lng:-43.31905871739654, district:'Vista Alegre',address:'Estrada da Água Grande, 782',date:"19/02/2021", hour:"22h", img:"love-rio-bbb.png"},
     {lat:-22.878800254342156, lng:-43.24539383511024, district:'Manguinhos',address:'Bar do Barro',date:"19/02/2021", hour:"21h", img:"carnaval-do-barro.png"},
-    {lat:-22.838482316761855, lng:-43.35954574623134, district:'Coelho Neto',address:'R. Gustavo Viana Filho',date:"Todos os dias", hour:"(sem horário)", img:"festival-dos-cria.png"},
+    {lat:-22.838482316761855, lng:-43.35954574623134, district:'Coelho Neto',address:'R. Gustavo Viana Filho',date:"Todos os dias", hour:"", img:"festival-dos-cria.png"},
     {lat:-22.849008311296473, lng:-43.357176130890856, district:'Honório Gurgel',address:'R. das Safiras, 242',date:"09/04/2021", hour:"21h", img:"baile-de-maldivas.png"},
-    {lat:-22.88579202086949, lng:-43.25515820390117, district:'Jacaré',address:'Praça da concordia(sem endereço exato)',date:"Toda sexta", hour:"(sem horário)", img:"baile-do-jaca.png"},
+    {lat:-22.88579202086949, lng:-43.25515820390117, district:'Jacaré',address:'Praça da concordia(sem endereço exato)',date:"Toda sexta", hour:"", img:"baile-do-jaca.png"},
     {lat:-22.891852755458753, lng:-43.25714042589415, district:'Jacaré',address:'"Função"',date:"18/02/2021", hour:"21h", img:"pago-funk.png"},
     {lat:-22.93529661035586, lng:-43.21267189040586, district:'Rio Comprido',address:'R. Paula Ramos, 426',date:"05/03/2021", hour:"22h", img:"demo-baile.png"},
     {lat:-22.889378487752907, lng:-43.49317561026568, district:'Senador Camará',address:'"Favela chique"(sem endereço exato)',date:"12/03/2021", hour:"21h", img:"favela-chique.png"},
@@ -97,16 +97,16 @@ var locations = [
     {lat:-22.864006952716814, lng:-43.336973086600324, district:'Madureira',address:'Comunidade Cajueiro',date:"15/02/2021", hour:"18h", img:"cajueiro-folia.png"},
     {lat:-22.908641403568744, lng:-43.296582369402415, district:'Engenho de Dentro',address:'Camarista Méier - Âncora',date:"15/02/2021", hour:"22h", img:"pagofunk-camarista.png"},
     {lat:-22.860092915806774, lng:-43.23855367548396, district:'Nova Holanda',address:'Campo da Rubens Vaz',date:"20/02/2021", hour:"23h", img:"baile-da-nova-holanda.png"},
-    {lat:-22.98326585595873, lng:-43.2009018327347, district:'Ipanema',address:'R. Farme de Amoedo, 95',date:"13,14,15,16/02/2021", hour:"?", img:"point-meninos.png"},
+    {lat:-22.98326585595873, lng:-43.2009018327347, district:'Ipanema',address:'R. Farme de Amoedo, 95',date:"13,14,15,16/02/2021", hour:"", img:"point-meninos.png"},
     {lat:-22.964298849636258, lng:-43.17403215787776, district:'Copacabana',address:'Av. Princesa Isabel, 21',date:"15/02/2021", hour:"23h", img:"black-cat.png"},
     {lat:-22.965948767492176, lng:-43.17644721554819, district:'Copacabana',address:'Av. Atlântica, 1424',date:"15/02/2021", hour:"23h", img:"bloquinho-da-dolce.png"},
     {lat:-22.936907988112917, lng:-43.179253573219064, district:'Flamengo',address:'R. Bibiano Pereira da Rocha',date:"15/02/2021", hour:"22h", img:"black-cat.png"},
-    {lat:-22.93420229470518, lng:-43.211852813614264, district:'Rio Comprido',address:'R. Paula Ramos, 402',date:"15/02/2021", hour:"?", img:"mirante-do-caribe.png"},
+    {lat:-22.93420229470518, lng:-43.211852813614264, district:'Rio Comprido',address:'R. Paula Ramos, 402',date:"15/02/2021", hour:"", img:"mirante-do-caribe.png"},
     {lat:-22.949744651038927, lng:-43.36129711015485, district:'Cidade de Deus',address:'Praça do Dantas',date:"14/02/2021", hour:"14h", img:"saida-dos-pirulitos.png"},
     {lat:-22.948199590501527, lng:-43.36341183068254, district:'Cidade de Deus',address:'Quadra do Lazer',date:"16/02/2021", hour:"12h", img:"correto.png"},
     {lat:-22.880659914944403, lng:-43.463947217192434, district:'Bangu',address:'R. Santa Cecília, 800',date:"16/02/2021", hour:"17h", img:"caju-para-baixo-2.png"},
-    {lat: -22.89545058078427, lng:-43.41838557682063, district:'Realengo',address:'R. Leonor Chrisman Mulle (Pistão da Leonor)',date:"12/02/2021", hour:"?", img:"pistao-da-leonor.png"},
-    {lat:-22.87694619228239, lng:-43.44195237486469, district:'Padre Miguel',address:'R. Barão de Piraquara, 446',date:"?", hour:"?", img:"bloco-desce-redondo.png"},
+    {lat: -22.89545058078427, lng:-43.41838557682063, district:'Realengo',address:'R. Leonor Chrisman Mulle (Pistão da Leonor)',date:"12/02/2021", hour:"", img:"pistao-da-leonor.png"},
+    {lat:-22.87694619228239, lng:-43.44195237486469, district:'Padre Miguel',address:'R. Barão de Piraquara, 446',date:"", hour:"", img:"bloco-desce-redondo.png"},
     {lat:-22.858274207873357, lng:-43.49051775766046, district:'Vila Kennedy',address:'Quadra da Manilha',date:"13/02/2021", hour:"20h", img:"marrocos-folia.png"},
     {lat:-22.815324981966132, lng:-43.29206910184868, district:'Cordovil',address:'R. Mar Grande, 332',date:"20/02/2021", hour:"20h", img:"pre-carnaval-dos-cria.png"},
     {lat:-22.90669026447363, lng:-43.190391044174866, district:'Centro',address:'Praça da República, 141',date:"10-17/02/2021", hour:"22h", img:"cruising-festival.png"},
@@ -122,7 +122,7 @@ var locations = [
     {lat:-22.88656791644172, lng:-43.257365919147816, district:'Jacaré',address:'R. Vieira Fazenda, 56',date:"12/02/2021", hour:"21h", img:"traplize.png"},
     {lat:-22.875286204144196, lng:-43.349384796329005, district:'Oswaldo Cruz',address:'R. Antonieta',date:"12/02/2021", hour:"18h", img:"tropa-da-esquina.png"},
     {lat:-22.857495413046497, lng:-43.31448845962735, district:'Vicente de Carvalho',address:'R. Igramerim',date:"13/02/2021", hour:"19h", img:"juramento-folia.png"},
-    {lat:-22.837789790840738, lng:-43.332731757846645, district:'Colégio',address:'Estrada do Colégio, 11',date:"12-16/02/2021", hour:"?", img:"para-paz-folia.png"},
+    {lat:-22.837789790840738, lng:-43.332731757846645, district:'Colégio',address:'Estrada do Colégio, 11',date:"12-16/02/2021", hour:"", img:"para-paz-folia.png"},
     {lat:-22.865586158706858, lng:-43.29518982026106, district:'Engenho da Rainha',address:'R. Mario Ferreira (R. da feira)',date:"12-16/02/2021", hour:"18h", img:"canada-folia.png"},
     {lat:-22.818099165975713, lng:-43.37531101534036, district:'Pavuna',address:'R. Tiradentes (Bar do Josias)',date:"13-14/02/2021", hour:"22h", img:"cruising-festival.png"},
     {lat:-22.856218442912034, lng:-43.345748946028735, district:'Rocha Miranda',address:'R. Santo Elias, 74',date:"13/02/2021", hour:"18h", img:"kaboom.png"},
@@ -135,17 +135,19 @@ for(let i = 0 ; i < locations.length ; i++){
     marker = new L.marker([locations[i].lat, locations[i].lng], {
         icon: blackIcon
     })
-    .bindPopup(locations[i].district + "<br>" + locations[i].address + "<br>" + locations[i].date + ' às ' + locations[i].hour)
+    .bindPopup("<div class='popup-complete-address'>" + locations[i].district + 
+               "<br>" + locations[i].address + "</div>" + 
+               "<div class='popup-date-and-hour'>" + locations[i].date + " " + locations[i].hour  + "</div>")
     .on('mouseover', function(){
-        this.openPopup();
+        this.openPopup()
+        
         document.getElementById("flyerImage").src = "img/"+locations[i].img;  
     })
     .on('mouseout', function(){
-        this.closePopup();
+     //   this.closePopup();
         document.getElementById("flyerImage").src = "";  
     }).addTo(mymap)
 }
-
 document.getElementById("totalDeEventos").innerHTML = "Total de " + locations.length + " eventos localizados";
 
 //var markers2 = L.markerClusterGroup();
